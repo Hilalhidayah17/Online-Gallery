@@ -332,4 +332,5 @@ repository if they differ.
 ## 12. Answer Ruling
 - Only explain with a simple word
 - dont change many file at once, give me an explanation at the change
+- Approval gate for every change: present ONE change (target file + content summary), wait for explicit user approval, then write it. No writing code before approval, no batching changes.
 
