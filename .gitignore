@@ -1,0 +1,25 @@
+# .NET build output
+bin/
+obj/
+out/
+
+# Logs (Serilog file sink)
+logs/
+*.log
+
+# IDE
+.vs/
+.idea/
+*.user
+*.suo
+
+# OS
+.DS_Store
+
+# Secrets (user-secrets stay outside repo; never commit local secret files)
+secrets.json
+*.secrets.json
+
+# Frontend (added in P9)
+node_modules/
+dist/

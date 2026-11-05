@@ -1,0 +1,5 @@
+@AlbumApp.Web_HostAddress = http://localhost:5055
+
+GET {{AlbumApp.Web_HostAddress}}/health
+
+###
